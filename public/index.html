@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind  -->
+    <link rel="stylesheet" href="./css/tailwind.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!-- Roboto font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet" />
+    <!-- Main css file -->
+    <link rel="stylesheet" href="../node_modules/tw-elements/dist/css/tw-elements.min.css" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <!-- Axios -->
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+</head>
+<body class= "relative bg-primary-50">
+   
+
+            <!-- ========================================================= -->
+            <!-- ======================== Main Content ==================== -->
+    
+    <div class="sm:container mt-5">
+
+        <!-- posts -->
+        <div id="posts" class="">
+            <!-- post -->
+            <div
+                class=" mb-6  block  rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-primary-700">
+                <div class="flex gap-1  border-b-2 px-6 py-3 dark:border-primary-600 dark:text-primary-50">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/1.webp"
+                        class="w-6 rounded-full"
+                        alt="Avatar" />
+                        <span class="text-primary-700 font-bold">@raid258</span>
+                </div>
+                <div class="relative  p-6 pb-0 overflow-hidden bg-cover bg-no-repeat">
+                    <img class="rounded-lg "
+                        src="https://tecdn.b-cdn.net/img/new/slides/041.webp"
+                        alt="" />
+                        <p class="text-base  text-primary-600 dark:text-primary-200">
+                            <small class="text-primary-500 dark:text-primary-400">Last updated 3 mins ago</small>
+                            </p>
+                </div>
+                <div class="px-6 ">
+                    <h5
+                    class="mb-2 text-xl font-medium leading-tight text-primary-800 dark:text-primary-50">
+                    Card title
+                    </h5>
+                    <p class="mb-4 text-base text-primary-700 dark:text-primary-200">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                    </p>
+                </div>
+                <div class="border-t-2 flex items-center gap-2 flex-wrap px-6 py-3 text-primary-700 ">
+                    <div class="cursor-pointer">
+                        <i class="fa-regular fa-comment"></i>
+                        <span>
+                            3 coments
+                        </span>
+                    </div>
+                    <div class="flex gap-2 flex-wrap">
+                        <button
+                            type="button"
+                            class="inline-block rounded-full bg-primary-100 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-150 ease-in-out hover:bg-primary-accent-100 focus:bg-primary-accent-100 focus:outline-none focus:ring-0 active:bg-primary-accent-200">
+                            Secondary
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+            <!-- ========================================================= -->
+    <script src="./js/htmelLop.js"></script>
+    <script type="text/javascript" src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+
+            
+</body>
+</html>
